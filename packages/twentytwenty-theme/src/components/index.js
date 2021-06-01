@@ -31,9 +31,9 @@ const Theme = ({ state }) => {
       <MetaTitle />
       <Head>
         <meta name="description" content={state.frontity.description} />
-        <html lang="en" />
+        <html lang="bn" />
       </Head>
-
+        <Page>
       {/* Accessibility: Provides ability to skip to main content */}
       <SkipLink as="a" href="#main">
         Skip to main content
@@ -41,11 +41,13 @@ const Theme = ({ state }) => {
 
       <div style={{ minHeight: "calc(100vh - 190px)" }}>
         {/* Add the header of the site. */}
+        
         <Header />
-
+       
         {/* Add the main section. It renders a different component depending
         on the type of URL we are in. */}
         <Main id="main">
+          
           <Switch>
             <Loading when={data.isFetching} />
             <SearchResults when={data.isSearch} />
@@ -57,6 +59,7 @@ const Theme = ({ state }) => {
       </div>
 
       <Footer />
+      </Page>
     </>
   );
 };
@@ -65,4 +68,29 @@ export default connect(Theme);
 
 const Main = styled.main`
   display: block;
+  
+  `;
+
+  const Page = styled.div` 
+  background-color: #dbe9f4;
+  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto
+
+
+@media screen and (max-width: 1190px) {
+  #page {
+    width: 97%
+  }
+  .wide #page {
+    width: 100%
+  }
+  .inner-wrap {
+    width: 94%
+  }
+}
+
 `;
+
+
+

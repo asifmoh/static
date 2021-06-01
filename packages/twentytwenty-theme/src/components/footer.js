@@ -29,12 +29,12 @@ const Footer = ({ state }) => {
   return (
     <SiteFooter bg={footerBg} role="contentinfo">
       <SiteFooterInner>
-        <Credits>
-          <Copyright>
+        <Credits> 
+          <Copyright>কপিরাইট
             &copy; {currentYear}{" "}
             <Link link={state.frontity.url}>{state.frontity.title}</Link>
           </Copyright>
-          <PoweredBy>Powered by Frontity</PoweredBy>
+          <PoweredBy>সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত</PoweredBy>
         </Credits>
         <BackToTop />
       </SiteFooterInner>
@@ -78,7 +78,8 @@ const Credits = styled.div`
 `;
 
 const Copyright = styled.p`
-  font-weight: 600;
+color: #6d6d6d;  
+font-weight: 600;
   margin: 0;
 
   @media (min-width: 700px) {
@@ -87,7 +88,7 @@ const Copyright = styled.p`
 `;
 
 const PoweredBy = styled.p`
-  color: #6d6d6d;
+  
   display: none;
   margin: 0 0 0 2.4rem;
 

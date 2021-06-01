@@ -1,10 +1,11 @@
+
 const settings = {
   "name": "shongshoy",
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "সংশয় - চিন্তার মুক্তির আন্দোলন",
+      "description": "জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব"
     }
   },
   "packages": [
@@ -14,29 +15,47 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
+              "মূলপাতা",
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "প্রবন্ধ আর্কাইভ",
+              "/archive-articles/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "তথ্য–ইসলাম",
+              "references/islam/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "তথ্য–হিন্দু",
+              "/references/hinduism/"
+            ],
+            
+            [
+              "তথ্য–খ্রিস্ট",
+              "/references/christianity/"
             ],
             [
-              "About Us",
-              "/about-us/"
+              "গ্রন্থাগার",
+              "/library/"
+            ],
+            [
+              "নিয়মাবলী",
+              "/about/terms-service-privacy-policy/"
+            ],
+
+            [
+              "নীতিমালা",
+              "/rules/"
+            ],
+            [
+              "উত্তরসমূহ",
+              "/faq/"
             ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +64,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://www.shongshoy.com"
         }
       }
     },
