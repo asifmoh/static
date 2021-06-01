@@ -3,7 +3,7 @@ const settings = {
   "name": "shongshoy",
   "state": {
     "frontity": {
-      "url": "https://asifmoh.github.io/static",
+      "url": "https://shongshoy.live/",
       "title": "সংশয় - চিন্তার মুক্তির আন্দোলন",
       "description": "জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব"
     }
