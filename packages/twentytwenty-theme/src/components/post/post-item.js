@@ -252,4 +252,9 @@ export const EntryContent = styled.div`
       margin: 4.5rem auto 2.5rem;
     }
   }
-`;
+  .footnotes
+  {
+    font-style: italic;
+  }
+
+  `;

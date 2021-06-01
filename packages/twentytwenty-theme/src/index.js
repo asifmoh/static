@@ -2,6 +2,7 @@ import Theme from "./components";
 import image from "@frontity/html2react/processors/image";
 import link from "@frontity/html2react/processors/link";
 
+
 const twentyTwentyTheme = {
   name: "@frontity/twentytwenty-theme",
   roots: {

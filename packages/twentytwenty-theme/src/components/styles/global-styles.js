@@ -568,6 +568,7 @@ const tableStyles = (colors) => css`
   th {
     font-weight: 700;
   }
+  
 `;
 
 /**

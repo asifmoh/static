@@ -137,6 +137,7 @@ const Header = styled(PostHeader)`
 
 const PostArticle = styled(_Post)`
   padding-top: 0 !important;
+ 
 `;
 
 const FeaturedImage = styled(FeaturedMedia)`

@@ -6,7 +6,7 @@ import SearchModal from "./search/search-modal";
 import MobileSearchButton from "./mobile/search-button";
 import MobileMenuButton from "./mobile/menu-button";
 import MobileMenuModal from "./mobile/menu-modal";
-import styles from "./styles/style.css";
+
 
 
 const Header = ({ state }) => {

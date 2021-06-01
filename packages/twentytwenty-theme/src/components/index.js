@@ -32,8 +32,18 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="bn" />
+        <meta name="robots" content="nofollow, noindex"></meta>
+        <link rel="canonical" href="https://www.shongshoy.com"></link>
       </Head>
         <Page>
+        <script>
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+        </script>
+
+
       {/* Accessibility: Provides ability to skip to main content */}
       <SkipLink as="a" href="#main">
         Skip to main content
